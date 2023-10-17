@@ -1,0 +1,203 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.poke {
+    display: grid;
+    grid-template-columns: 1fr ;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.normal   { 
+    background-color:  #a8a878;  
+}
+
+.grass    { 
+    background-color:  #78c850;  
+}
+
+.fire     { 
+    background-color:  #f05030 ;  
+}
+
+.water    { 
+    background-color:  #6890f0;  
+}
+
+.electric  { 
+    background-color:  #f8d030;  
+}
+
+.ice      { 
+    background-color:  #98d8d8 ;  
+}
+
+.ground   { 
+    background-color:  #e0c068;  
+}
+
+.flying   { 
+    background-color:  #a890f0;  
+}
+
+.poison   { 
+    background-color:  #a040a0;  
+}
+
+.fighting { 
+    background-color:  #903028;  
+}
+
+.psychic  { 
+    background-color:  #f85888;  
+}
+
+.dark     { 
+    background-color:  #705848;  
+}
+
+.rock     { 
+    background-color:  #b8a038;  
+}
+
+.bug      { 
+    background-color:  #a8b720;  
+}
+
+.ghost    { 
+    background-color:  #705898;  
+}
+
+.steel    { 
+    background-color:  #b8b8d0;  
+}
+
+.dragon   { 
+    background-color:  #7038f8;  
+}
+
+.fairy    { 
+    background-color:  #f9aec7;  
+}
+
+.pokemon{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 350px;
+}
+
+.volta{
+    color: white;
+    font-size: xx-large;
+    text-decoration: none;
+    margin-left: 1rem;
+    margin-top: 0.1;
+}
+
+.pokemon .name{
+    font-size: xx-large;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 0;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.pokemon .details{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
+
+.pokemon .details .types{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.pokemon .details .types .type{
+    color: white;
+    padding: 0.25rem 0.25rem;
+    margin: 0.15rem;
+    border-radius: 0.625rem;
+    font-size: medium;
+    filter: brightness(1.3);
+    text-align: center;
+}
+
+.poke .details img{
+    max-width: 100%;
+    height: 250px;
+    align-self: center;
+    margin-top: 0.5rem;
+}
+
+.base{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.all_stats {
+    display: flex;
+    align-items: center;  
+}
+
+.statsName, .stats {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+
+.stat_name {
+    text-align: right;
+   margin: 4.5px;
+   margin-right: 10px ;
+}
+
+.stat-bar {
+    height: 20px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+    margin: 3px;
+    margin-right: 150px;
+}
+
+@media screen and (min-width: 380px){
+    .stat-bar{
+        margin-right: 200px;
+    }    
+}
+
+@media screen and (min-width: 576px){
+    .stat-bar{
+        margin-right: 500px;
+    }    
+}
+
+@media screen and (min-width: 992px){
+    .stat-bar{
+        margin-right: 800px;
+    }    
+}
+
+@media screen and (min-width: 1440px){
+    .stat-bar{
+        margin-right: 1100px;
+    }    
+}
+
+@media screen and (min-width: 2560px){
+    .stat-bar{
+        margin-right: 1400px;
+    }    
+}
